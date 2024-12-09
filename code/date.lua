@@ -1,0 +1,6 @@
+year = os.date("%Y")
+month = os.date("%m")
+day = os.date("%d")
+hour = os.date("%H")
+minute = os.date("%M")
+second = os.date("%S")
