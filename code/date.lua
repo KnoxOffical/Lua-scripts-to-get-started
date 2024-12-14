@@ -13,6 +13,6 @@ day = os.date("%d")
 month = os.date("%m")
 fulldate = month .."/" ..day .."/" ..year
 print(fulldate)
-while tonumber(day) == 14 do -- this makes it able to infinitely get the number and display it in the console.
+while tonumber(day) == 14 do -- this makes it able to infinitely get the number and display it in the console, the tonumber is there so it wont grab the function and will grab the date number
   print(day)
 end
